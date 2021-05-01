@@ -1,8 +1,8 @@
-function numbering(){
-    i = 0;
-    while(i < 10){
-        document.write(i);
-        i += 1;
-    }   
+function numbering() {
+  let i = 0;
+  while (i < 1000) {
+    console.log(i);
+    i += 1;
+  }
 }
 numbering();
