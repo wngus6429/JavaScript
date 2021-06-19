@@ -1,0 +1,36 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game.CSS" />
+    <title>Document</title>
+    <style>
+      p {
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="11">안녕</p>
+    <script>
+      const ID = prompt("아이디입력");
+      if (ID == "admin") {
+        const password = prompt("비밀번호 입력");
+        if (password == "TheMaster") {
+          alert("로그인 되었습니다");
+        } else if (password == null) {
+          alert("취소됨");
+        } else {
+          alert("인증에 실패함");
+        }
+      } else if (ID == null) {
+        alert("취소 되었음");
+      } else {
+        alert("아이디가 틀림");
+      }
+    </script>
+  </body>
+</html>
