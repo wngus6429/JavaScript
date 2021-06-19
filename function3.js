@@ -16,11 +16,10 @@
 // }
 // init();
 
-className 쓰니까. 한번 바뀌면 btn이 더 이상 표시되지 않아서
-classList를 사용한다.
+//className 쓰니까. 한번 바뀌면 btn이 더 이상 표시되지 않아서
+//classList를 사용한다.
 
 const title = document.querySelector("#title");
-
 const CLICKED_CLASS = "clicked";
 
 function handleClick() {

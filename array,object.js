@@ -1,33 +1,27 @@
-// // Array Object
-// // array는 데이터를 저장 하는 곳 인데. 리스트 같이 저장한다.
+// array는 데이터를 저장 하는 곳 인데. 리스트 같이 저장한다.
 
-// const daysOfWeek = ['Mon','tue','wen','thu','fri'];
-
-// console.log(daysOfWeek[4]);
-
-// //[] 의 의미가 배열임
+const daysOfWeek = ["Mon", "tue", "wen", "thu", "fri"];
+console.log(daysOfWeek[4]); //fri가 나옴
 
 // object는 각 value에 이름을 줄 수 있음.
 
-// const wngusinfo = {
-//   name: "nico",
-//   age: "27",
-//   gender: "male",
-//   ishansome: true,
-//   favmovie: ["along the god", "lot", "game"],
-//   favfood: [
-//     { name: "kinchi", fatty: "chicken" },
-//     { name: "chill", fatty: "good" }
-//   ]
-// };
+const wngussinfo = {
+  name: "nico",
+  age: "27",
+  gender: "male",
+  ishansome: true,
+  favmovie: ["along the god", "lot", "game"],
+  favfood: [
+    { name: "kinchi", fatty: "chicken" },
+    { name: "chill", fatty: "good" },
+  ],
+};
 
-// console.log(wngusinfo.gender);
+console.log(wngussinfo.gender); //male 나옴
 
-// wngusinfo.gender = "female";
+wngussinfo.gender = "female";
+console.log(wngussinfo.gender); //female 나옴
 
-// console.log(wngusinfo.gender);
-
-// 자바스크립트의 재미 있는 점인데.
 // const해도 안에 내용은 바꿀 수 있음.
 
 // object를 array안에 넣을 수 있음.
@@ -39,7 +33,7 @@ const wngusinfo = {
   ishansome: true,
   favmovie: ["along the god", "lot", "game"],
   favfood: [{ name: "kinchi", fatty: "chicken" }, { rule: "callof" }],
-  favgame: { fun: "game" }
+  favgame: { fun: "game" },
 };
 
 console.log(wngusinfo.favfood[0].fatty);
